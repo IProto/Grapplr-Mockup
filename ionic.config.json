@@ -1,5 +1,7 @@
 {
   "name": "Grapplr-Mockup",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

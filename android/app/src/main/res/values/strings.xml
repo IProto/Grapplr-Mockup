@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GrapplrMockup</string>
+    <string name="title_activity_main">GrapplrMockup</string>
+    <string name="package_name">com.grapplrApp.grapplr</string>
+    <string name="fileprovider_authority">com.grapplrApp.grapplr.fileprovider</string>
+    <string name="custom_url_scheme">com.grapplrApp.grapplr</string>
+</resources>

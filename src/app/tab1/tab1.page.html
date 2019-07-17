@@ -1,39 +1,65 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="dark">
     <ion-title>
-      Tab One
+      <ion-icon style="position:absolute; top: 10; left: 10;" name="menu"></ion-icon>
+      <div style="text-align: center">Grapplr</div>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
-    <ion-card class="welcome-card">
-      <img src="/assets/shapes.svg" alt="" />
-      <ion-card-header>
-        <ion-card-subtitle>Get Started</ion-card-subtitle>
-        <ion-card-title>Welcome to Ionic</ion-card-title>
-      </ion-card-header>
-      <ion-card-content>
-        <p>Now that your app has been created, you'll want to start building out features and components. Check out some of the resources below for next steps.</p>
-      </ion-card-content>
-    </ion-card>
-    <ion-list lines="none">
-      <ion-list-header>
-        <ion-label>Resources</ion-label>
+<ion-content color="light">
+  <ion-slides pager="true">
+    <ion-slide>
+      <ion-card class="welcome-card">
+          <ion-card-header>
+              <ion-card-title>Featured Video</ion-card-title>
+            </ion-card-header>
+        <img src="/assets/welcome.jpg" alt="" />
+        <ion-card-content>
+        </ion-card-content>
+      </ion-card>
+    </ion-slide>
+    <ion-slide>
+        <ion-card class="welcome-card">
+            <img src="./assets/shapes.svg" alt="" />
+            <ion-card-header>
+              <ion-card-subtitle>Slide 2</ion-card-subtitle>
+              <ion-card-title>Some other content</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+            </ion-card-content>
+          </ion-card>
+    </ion-slide>
+    <ion-slide>
+        <ion-card class="welcome-card">
+            <img src="./assets/shapes.svg" alt="" />
+            <ion-card-header>
+              <ion-card-subtitle>Slide 3</ion-card-subtitle>
+              <ion-card-title>Even more content</ion-card-title>
+            </ion-card-header>
+            <ion-card-content>
+            </ion-card-content>
+          </ion-card>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-list lines="none" class="welcome-list">
+      <ion-list-header  color="medium">
+        <ion-label>Interesting List</ion-label>
       </ion-list-header>
-      <ion-item href="https://ionicframework.com/docs/">
+      <ion-item href="https://ionicframework.com/docs/" color="light">
         <ion-icon slot="start" color="medium" name="book"></ion-icon>
-        <ion-label>Ionic Documentation</ion-label>
+        <ion-label>Something cool</ion-label>
       </ion-item>
-      <ion-item href="https://ionicframework.com/docs/building/scaffolding">
+      <ion-item href="https://ionicframework.com/docs/building/scaffolding" color="light">
         <ion-icon slot="start" color="medium" name="build"></ion-icon>
-        <ion-label>Scaffold Out Your App</ion-label>
+        <ion-label>Robot hands</ion-label>
       </ion-item>
-      <ion-item href="https://ionicframework.com/docs/layout/structure">
+      <ion-item href="https://ionicframework.com/docs/layout/structure" color="light">
         <ion-icon slot="start" color="medium" name="grid"></ion-icon>
-        <ion-label>Change Your App Layout</ion-label>
+        <ion-label>Shitty chess</ion-label>
       </ion-item>
-      <ion-item href="https://ionicframework.com/docs/theming/basics">
+      <ion-item href="https://ionicframework.com/docs/theming/basics" color="light">
         <ion-icon slot="start" color="medium" name="color-fill"></ion-icon>
         <ion-label>Theme Your App</ion-label>
       </ion-item>

@@ -1,0 +1,7 @@
+{
+  "appId": "com.grapplrApp.grapplr",
+  "appName": "GrapplrMockup",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

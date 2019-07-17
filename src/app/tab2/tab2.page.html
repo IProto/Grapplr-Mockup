@@ -6,4 +6,12 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-button margin expand="block" (click)="testNativeYoutubePlayerPlugin()">
+    <ion-icon slot="start" name="play"></ion-icon>
+    Play Video
+  </ion-button>
+  <ion-item>
+      <div id="youtube-player"></div>
+  </ion-item>
+</ion-content>
